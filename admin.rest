@@ -1,0 +1,40 @@
+POST http://localhost:6000/register
+Content-Type: application/json
+
+{
+    "name": "SMAN 61 JKT",
+    "password": "osissman61jkt"
+}
+
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "name": "SMAN 61 JKT",
+    "password": "osissman61jkt"
+}
+
+###
+GET http://localhost:3000/token
+
+###
+DELETE http://localhost:6000/logout
+
+###
+GET http://localhost:3000/gallery
+
+###
+GET http://localhost:6000/gallery/29
+
+###
+GET http://localhost:6000/images/1700734107153-imama hitam.jpg
+
+###
+
+
+###
+GET http://localhost:3000/gallery
+
+###
+GET http://localhost:6000/Artikel/1700734280865-imama putih.jpg
