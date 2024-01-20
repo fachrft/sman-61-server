@@ -20,7 +20,7 @@ const app = express();
 app.use(
     cors({
         credentials: true,
-        origin: "https://nasa-pers.vercel.app/",
+        origin: "https://nasa-pers.vercel.app",
     })
 );
 
